@@ -7,19 +7,20 @@ a{
 }
 label, h1, .resultado{
     font-family: 'VALORANT', sans-serif;
-    color: black
+    color: rgb(187, 52, 52);
+    text-shadow: 0 0 2px #fff
 }
 h1{
     justify-self: start;
 }
 body{
-    background-image: url(https://images6.alphacoders.com/107/thumb-1920-1072679.jpg);
+    background-image: url(https://i.ytimg.com/vi/-5VkqpNxi_4/maxresdefault.jpg);
     margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
     min-height: 100vh;
-    min-width: 100vw;
+    min-width: fit-content;
+    align-items: center;
 }
 
 .container{
