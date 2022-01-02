@@ -1,9 +1,3 @@
-@media (max-width: 769px){ 
-    label, h1{
-        font-family: 'VALORANT', sans-serif;
-        color: black
-        text-shadow: 0 0 2px #fff;}
-    }
 *{                             
     box-sizing: border-box;
 }
@@ -12,23 +6,24 @@ a{
     font-size: x-small;
     text-align: center;
 }
-@media (min-width: 770px){
+
 label, h1{
     font-family: 'VALORANT', sans-serif;
     color: rgb(187, 52, 52);
     text-shadow: 0 0 2px #fff;}
-}
+
 h1{
     justify-self: start;
 }
 body{
-    background-image: url(https://i.ytimg.com/vi/-5VkqpNxi_4/maxresdefault.jpg);
+    background-image: url(https://i0.wp.com/gameriv.com/wp-content/uploads/2020/04/csgo-valorant.jpg?resize=696%2C392&ssl=1);
     margin: 0;
     display: flex;
     justify-content: center;
     min-height: 100vh;
     min-width: fit-content;
     align-items: center;
+    background-size: cover;
 }
 
 .container{
