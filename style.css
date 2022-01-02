@@ -1,14 +1,22 @@
+@media (max-width: 769px){ 
+    label, h1{
+        font-family: 'VALORANT', sans-serif;
+        color: black
+        text-shadow: 0 0 2px #fff;}
+    }
 *{                             
     box-sizing: border-box;
 }
+
 a{
     font-size: x-small;
     text-align: center;
 }
-label, h1, .resultado{
+@media (min-width: 770px){
+label, h1{
     font-family: 'VALORANT', sans-serif;
     color: rgb(187, 52, 52);
-    text-shadow: 0 0 2px #fff
+    text-shadow: 0 0 2px #fff;}
 }
 h1{
     justify-self: start;
